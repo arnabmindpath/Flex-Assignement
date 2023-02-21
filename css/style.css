@@ -1,0 +1,26 @@
+/*Common CSS*/
+.main-container {width:100%;}
+.container {max-width:1140px; margin:0 auto;}
+a {text-decoration:none; color: black;}
+
+/*Top Bar CSS*/
+.top-bar {border-bottom:1px solid #ececec; padding-top: 10px; padding-bottom: 15px;}
+.topbar {display:flex; justify-content: space-between;}
+.contact-details {display: flex;}
+.phone {display: flex; padding-right: 15px;}
+.call-icon {padding-right: 15px;}
+/*.call-icon:before {font-family: FontAwesome; content:"\f095";}*/
+
+/*Main Menu CSS*/
+.menu {padding-top: 20px; display: flex; justify-content: space-between;}
+.menu-logo{padding-top: 10px;}
+.menu-nav-ul li {display: inline; padding: 0 10px; font-family: sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase;}
+.menu-nav-ul li a {text-decoration: none; color: black;}
+.menu-nav-ul li button {background: red; border: none; padding: 15px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
+
+/*Slider CSS*/
+.slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; }
+.slider-content{color: white; text-align: center; font-family: sans-serif; font-size: 100px; font-weight: 700; padding-bottom: 20px; padding-top: 250px;}
+.slider-detail{color: white; text-align: center; font-family: sans-serif; font-size: 20px; font-weight: 400; text-align: center; letter-spacing: 1px; padding-bottom: 20px;}
+.slider-button{text-align: center; padding-bottom: 250px;}
+.slider-button button {background: red; border: none; padding: 20px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
