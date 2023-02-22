@@ -2,6 +2,10 @@
 .fluid-container {width:100%;}
 .container {max-width:1140px; margin:0 auto;}
 a {text-decoration:none; color: black;}
+h2 {font-size: 23px; font-family: sans-serif; font-weight: 600; color:#222; display: block;}
+p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; display: block;}
+
+.body {overflow-x: hidden;}
 
 /*Top Bar CSS*/
 .top-bar {border-bottom:1px solid #ececec; padding-top: 10px; padding-bottom: 15px;}
@@ -32,37 +36,37 @@ a {text-decoration:none; color: black;}
 
 .education-visa{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .education-visa-icon {padding-right: 15px;}
-.education-visa p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.education-visa p { margin-top: 15px; margin-bottom: 8px;}
 .education-visa {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .education-visa:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .business-immigration{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .business-immigration-icon {padding-right: 15px;}
-.business-immigration p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.business-immigration p {margin-top: 15px; margin-bottom: 8px;}
 .business-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .business-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .skilled-immigration {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
 .skilled-immigration-icon {padding-right: 15px;}
-.skilled-immigration p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.skilled-immigration p {margin-top: 15px; margin-bottom: 8px;}
 .skilled-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .skilled-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .spouse-family{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .spouse-family-icon {padding-right: 15px;}
-.spouse-family p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.spouse-family p {margin-top: 15px; margin-bottom: 8px;}
 .spouse-family {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .spouse-family:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .tourist-visitor{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .tourist-visitor-icon {padding-right: 15px;}
-.tourist-visitor p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.tourist-visitor p {margin-top: 15px; margin-bottom: 8px;}
 .tourist-visitor {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .tourist-visitor:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .language {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
 .language-icon {padding-right: 15px;}
-.language p {font-size: 23px; margin-top: 15px; margin-bottom: 8px; font-family: sans-serif; font-weight: 600; color: #222;}
+.language p {margin-top: 15px; margin-bottom: 8px;}
 .language {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .language:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
@@ -77,3 +81,20 @@ a {text-decoration:none; color: black;}
 .about-agency-text ul li {list-style-type: circle; padding-bottom: 15px; font-size: 17px; font-family: sans-serif; color: #333;}
 .about-agency-text ul {padding-left: 15px;}
 .fc-background {background: #f8f9fb; padding-top: 50px; padding-bottom: 50px;}
+.about-agency-text button {background: red; border: none; padding: 15px 40px 15px 40px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
+.find-consultant h1 {padding-top: 60px; font-family: sans-serif; font-size: 44px; color: #2c3f69; font-weight: 500;}
+.find-consultant p {padding-right: 300px;}
+.country h3 {font-family: sans-serif; font-size: 23px; color: #2c3f69; font-weight: 600;}
+.practice-area h3 {font-family: sans-serif; font-size: 23px; color: #2c3f69; font-weight: 600;}
+.map-image {background-image: url(../image/world-map.png); width: 600px; height: 330px;}
+.find-consultant-flex {display: flex; justify-content: space-between;}
+.country ul li{list-style-type: none; font-family: sans-serif; font-size: 18px; font-weight: 500; color: #333; line-height: 31px;}
+.country ul {padding-left: 0px;}
+.country ul li a {color: #333;}
+.country h4 a {color: #1d437b;}
+.practice-area ul li{list-style-type: none; font-family: sans-serif; font-size: 18px; font-weight: 500; color: #333; line-height: 31px;}
+.practice-area ul {padding-left: 0px;}
+.practice-area ul li a{color: #333;}
+h4 {color: #1d437b; font-size: 20px; font-family: sans-serif; font-weight: 700;}
+.practice-area h4 a {color: #1d437b;}
+.fc-bg-color{padding-bottom: 50px;}
