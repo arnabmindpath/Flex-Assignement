@@ -19,7 +19,7 @@ a {text-decoration:none; color: black;}
 .menu-nav-ul li button {background: red; border: none; padding: 15px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
 
 /*Slider CSS*/
-.slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; }
+.slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; background-size: cover; scale: 1.009;}
 .slider-content{color: white; text-align: center; font-family: sans-serif; font-size: 100px; font-weight: 700; padding-bottom: 20px; padding-top: 250px;}
 .slider-detail{color: white; text-align: center; font-family: sans-serif; font-size: 20px; font-weight: 400; text-align: center; letter-spacing: 1px; padding-bottom: 20px;}
 .slider-button{text-align: center; padding-bottom: 250px;}
