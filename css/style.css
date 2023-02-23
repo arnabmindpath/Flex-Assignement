@@ -5,7 +5,7 @@ a {text-decoration:none; color: black;}
 h2 {font-size: 23px; font-family: sans-serif; font-weight: 600; color:#222; display: block;}
 p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; display: block;}
 
-.body {overflow-x: hidden;}
+
 
 /*Top Bar CSS*/
 .top-bar {border-bottom:1px solid #ececec; padding-top: 10px; padding-bottom: 15px;}
@@ -23,7 +23,7 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 .menu-nav-ul li button {background: red; border: none; padding: 15px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
 
 /*Slider CSS*/
-.slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; background-size: cover; scale: 1.009;}
+.slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; background-size: cover; scale: 1.008;}
 .slider-content{color: white; text-align: center; font-family: sans-serif; font-size: 100px; font-weight: 700; padding-bottom: 20px; padding-top: 250px;}
 .slider-detail{color: white; text-align: center; font-family: sans-serif; font-size: 20px; font-weight: 400; text-align: center; letter-spacing: 1px; padding-bottom: 20px;}
 .slider-button{text-align: center; padding-bottom: 250px;}
