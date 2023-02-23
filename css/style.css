@@ -2,7 +2,7 @@
 .fluid-container {width:100%;}
 .container {max-width:1140px; margin:0 auto;}
 a {text-decoration:none; color: black;}
-h2 {font-size: 23px; font-family: sans-serif; font-weight: 600; color:#222; display: block;}
+h2 {font-size: 23px; font-family: sans-serif; font-weight: 600; color:#222; display: block; }
 p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; display: block;}
 
 
@@ -17,11 +17,12 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 /*.call-icon:before {font-family: FontAwesome; content:"\f095";}*/
 
 /*Main Menu CSS*/
-.menu { display: flex; justify-content: space-between;}
-.menu-logo{padding-top: 10px;}
+.menu { display: flex; justify-content: space-between; padding: 15px 0;}
+.menu-logo{padding-top: 15px;}
 .menu-nav-ul li {display: inline; padding: 0 10px; font-family: sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase;}
 .menu-nav-ul li a {text-decoration: none; color: black;}
 .menu-nav-ul li button {background: red; border: none; padding: 15px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
+.menu-nav-ul li img {cursor: pointer;}
 
 /*Slider CSS*/
 .slider{background-image: url("../image/slide-1.jpg");  background-repeat: no-repeat ; background-size: cover; scale: 1.008;}
@@ -37,36 +38,42 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 
 .education-visa{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .education-visa-icon {padding-right: 15px;}
+.education-visa-text {word-break: break-word;}
 .education-visa p { margin-top: 15px; margin-bottom: 8px;}
 .education-visa {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .education-visa:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .business-immigration{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .business-immigration-icon {padding-right: 15px;}
+.business-immigration-text {word-break: break-word;}
 .business-immigration p {margin-top: 15px; margin-bottom: 8px;}
 .business-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .business-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .skilled-immigration {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
 .skilled-immigration-icon {padding-right: 15px;}
+.skilled-immigration-text {word-break: break-word;}
 .skilled-immigration p {margin-top: 15px; margin-bottom: 8px;}
 .skilled-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .skilled-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .spouse-family{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .spouse-family-icon {padding-right: 15px;}
+.spouse-family-text {word-break: break-word;}
 .spouse-family p {margin-top: 15px; margin-bottom: 8px;}
 .spouse-family {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .spouse-family:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .tourist-visitor{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
 .tourist-visitor-icon {padding-right: 15px;}
+.tourist-visitor-text {word-break: break-word;}
 .tourist-visitor p {margin-top: 15px; margin-bottom: 8px;}
 .tourist-visitor {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .tourist-visitor:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
 .language {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
 .language-icon {padding-right: 15px;}
+.language-text {word-break: break-word;}
 .language p {margin-top: 15px; margin-bottom: 8px;}
 .language {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
 .language:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
