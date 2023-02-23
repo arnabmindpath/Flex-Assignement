@@ -17,7 +17,7 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 /*.call-icon:before {font-family: FontAwesome; content:"\f095";}*/
 
 /*Main Menu CSS*/
-.menu {padding-top: 20px; display: flex; justify-content: space-between;}
+.menu { display: flex; justify-content: space-between;}
 .menu-logo{padding-top: 10px;}
 .menu-nav-ul li {display: inline; padding: 0 10px; font-family: sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase;}
 .menu-nav-ul li a {text-decoration: none; color: black;}
