@@ -2,9 +2,8 @@
 .fluid-container {width:100%;}
 .container {max-width:1140px; margin:0 auto;}
 a {text-decoration:none; color: black;}
-h2 {font-size: 23px; font-family: sans-serif; font-weight: 600; color:#222; display: block; }
+h2 {font-size: 23px; font-family: 'Mulish', sans-serif; font-weight: 800; color:#2c3f69; display: block; }
 p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; display: block;}
-
 
 
 /*Top Bar CSS*/
@@ -36,61 +35,30 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 .about-section {display: flex; justify-content: space-between; padding-top: 50px;}
 .about-section-2 {display: flex; justify-content: space-between; padding-top: 15px; margin-bottom: 50px;}
 
-.education-visa{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
-.education-visa-icon {padding-right: 15px;}
-.education-visa-text {word-break: break-word;}
-.education-visa p { margin-top: 15px; margin-bottom: 8px;}
-.education-visa {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.education-visa:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
+/* All 6 Blocks CSS*/
 
-.business-immigration{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
-.business-immigration-icon {padding-right: 15px;}
-.business-immigration-text {word-break: break-word;}
-.business-immigration p {margin-top: 15px; margin-bottom: 8px;}
-.business-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.business-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
+.six-block {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
+.six-block-icon {padding-right: 15px;}
+.six-block-text {word-break: break-word;}
+.six-block p {margin-top: 15px; margin-bottom: 8px;}
+.six-block {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
+.six-block:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
 
-.skilled-immigration {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
-.skilled-immigration-icon {padding-right: 15px;}
-.skilled-immigration-text {word-break: break-word;}
-.skilled-immigration p {margin-top: 15px; margin-bottom: 8px;}
-.skilled-immigration {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.skilled-immigration:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
-
-.spouse-family{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
-.spouse-family-icon {padding-right: 15px;}
-.spouse-family-text {word-break: break-word;}
-.spouse-family p {margin-top: 15px; margin-bottom: 8px;}
-.spouse-family {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.spouse-family:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
-
-.tourist-visitor{display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px; margin-right: 15px;}
-.tourist-visitor-icon {padding-right: 15px;}
-.tourist-visitor-text {word-break: break-word;}
-.tourist-visitor p {margin-top: 15px; margin-bottom: 8px;}
-.tourist-visitor {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.tourist-visitor:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
-
-.language {display: flex; justify-content: space-evenly; padding-right: 50px; border: 1px solid #e5e5e5; padding: 30px 15px;}
-.language-icon {padding-right: 15px;}
-.language-text {word-break: break-word;}
-.language p {margin-top: 15px; margin-bottom: 8px;}
-.language {font-family: sans-serif; color: #757575; line-height: 24px; width: 36%;}
-.language:hover {box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); }
-
+/* About Agency Block CSS*/
 .about-agency {display: flex;}
-.about-agency-text {display: inline; max-width: 50%; padding-left: 80px; padding-top: 100px;}
+.about-agency-text {display: inline; max-width: 50%; padding-left: 80px; padding-top: 50px;}
 .about-agency-image {background-image: url(../image/image-03.png); width: 450px; height: 600px; background-repeat: no-repeat;}
 .about-agency-video-icon {width: 130px; height: 130px; background: #fff; border-radius: 5px; position: relative; left: 356px; top: 250px; box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); }
 .about-agency-play-icon {background-image: url(../image/play-icon.png); width: 92px; height: 87px; background-repeat: no-repeat; position:absolute;  top: 22px; left: 20px;}
-
-.about-agency-header { font-family: sans-serif; font-weight: bold; color: #aaa; text-transform: uppercase; padding-bottom: 15px;}
-.consultation-text {font-family: sans-serif; font-weight: 500; font-size: 40px;}
-.about-agency-text ul li {list-style-type: circle; padding-bottom: 15px; font-size: 17px; font-family: sans-serif; color: #333;}
+.about-agency-header { font-family: 'Mulish', sans-serif; font-weight: bold; color: #aaa; text-transform: uppercase; padding-bottom: 15px; font-size: 18px;}
+.consultation-text {font-family: 'Mulish', sans-serif; font-weight: 600; font-size: 40px; color: #2c3f69;}
+.about-agency-text ul li {list-style-type: circle; padding-bottom: 15px; font-size: 17px; font-family: 'Roboto', sans-serif; color: #333; font-weight: 300; line-height: 24px;}
 .about-agency-text ul {padding-left: 15px;}
 .fc-background {background: #f8f9fb; padding-top: 50px; padding-bottom: 50px;}
 .about-agency-text button {background: red; border: none; padding: 15px 40px 15px 40px; border-radius: 5px; color:white; font-family: sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}
-.find-consultant h1 {padding-top: 60px; font-family: sans-serif; font-size: 44px; color: #2c3f69; font-weight: 500;}
+
+/* Find By Consultant Block CSS*/
+.find-consultant h1 {padding-top: 60px; font-family: 'Mulish', sans-serif; font-size: 44px; color: #2c3f69; font-weight: 500;}
 .find-consultant p {padding-right: 300px;}
 .country h3 {font-family: sans-serif; font-size: 23px; color: #2c3f69; font-weight: 600;}
 .practice-area h3 {font-family: sans-serif; font-size: 23px; color: #2c3f69; font-weight: 600;}
@@ -100,9 +68,65 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 .country ul {padding-left: 0px;}
 .country ul li a {color: #333;}
 .country h4 a {color: #1d437b;}
-.practice-area ul li{list-style-type: none; font-family: sans-serif; font-size: 18px; font-weight: 500; color: #333; line-height: 31px;}
-.practice-area ul {padding-left: 0px;}
-.practice-area ul li a{color: #333;}
 h4 {color: #1d437b; font-size: 20px; font-family: sans-serif; font-weight: 700;}
-.practice-area h4 a {color: #1d437b;}
 .fc-bg-color{padding-bottom: 50px;}
+
+.thousand-bg {background-image: url(../image/thousand-bg.png); width: 1895px; height: 585px; background-size: contain; background-repeat: no-repeat; padding-top: 95px; margin-left: -7px; scale: 1;}
+.thousand-title {text-align: center; color: white; font-size: 20px; padding-bottom: 40px;}
+.thousand-numbers {display: flex; justify-content: space-around; color: #fcb80b;}
+.thousand-numbers h1 {font-size: 50px;}
+.thousand-numbers h5 {font-size: 20px; margin-top: 0; color: white;}
+.hr {border-top: 4px solid #fcb80b; padding-bottom: 40px;}
+
+/*Tab Section CSS*/
+
+ /* Style the tab */
+ .tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;  
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #ccc;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    border-bottom: 3px solid #ff6900;
+    color: #ff6900;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border-bottom: 3px solid #ff6900;
+    color: #ff6900;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+ }
+
+ .hr-dash {border-top: 2px dashed #e3e3e6; margin-top: 50px; margin-bottom: 50px; }
+ .imigration-consultant h1 {padding-top: 25px; font-family: 'Mulish', sans-serif; font-size: 44px; color: #2c3f69; font-weight: 500; text-align: center;}
+ .imigration-consultant p {padding-top: 60px; font-family: sans-serif; font-size: 16px; color: #757575; font-weight: 500; text-align: center; padding: 0 150px; padding-bottom: 50px;}
+ .imigration-consultant {margin-bottom: 100px;}
+ .immigration-4-col {display: flex;}
+ .immigration-4-col-image {width: 285px; height: 279px;}
