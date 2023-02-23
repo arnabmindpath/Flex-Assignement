@@ -11,8 +11,9 @@ p {font-size: 16px; font-family: sans-serif; font-weight: 400; color: #757575; d
 .top-bar {border-bottom:1px solid #ececec; padding-top: 10px; padding-bottom: 15px;}
 .topbar {display:flex; justify-content: space-between;}
 .contact-details {display: flex;}
-.phone {display: flex; padding-right: 15px;}
-.call-icon {padding-right: 15px;}
+.phone {display: flex; padding-right: 10px;}
+.call-icon {padding-right: 5px;}
+.email {border-left: 2px solid #ddd8d8; padding-left: 16px;}
 /*.call-icon:before {font-family: FontAwesome; content:"\f095";}*/
 
 /*Main Menu CSS*/
