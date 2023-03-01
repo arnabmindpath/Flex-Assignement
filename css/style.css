@@ -130,3 +130,13 @@ h4 {color: #1d437b; font-size: 20px; font-family: sans-serif; font-weight: 700;}
  .imigration-consultant {margin-bottom: 100px;}
  .immigration-4-col {display: flex;}
  .immigration-4-col-image {width: 285px; height: 279px;}
+
+ .look-for-qality {background-image: url(../image/about-6.jpg); width: 1890px; height: 750px;}
+ .look-for-qality-col {display: flex; justify-content: space-between; position: relative; top: 125px;}
+ .girl-image-text {position: relative; top: 78px; padding-left: 100px; color: white;}
+ .girl-image-text h3 {font-size: 52px; font-family: 'Mulish', sans-serif; font-weight: 600;}
+ .girl-image-text p {font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: 400; color: white;}
+ .girl-image-text h4 {font-size: 24px; font-family: 'Roboto', sans-serif; font-weight: 400; color: white;}
+ .flags img {	padding-right: 15px;}
+ .flag-text {display: flex;}
+ .flag-text h4 {font-family: Roboto , sans-serif; font-size: 13px; font-weight: bold; padding-right: 33px;}
