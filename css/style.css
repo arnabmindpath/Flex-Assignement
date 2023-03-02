@@ -140,3 +140,12 @@ h4 {color: #1d437b; font-size: 20px; font-family: sans-serif; font-weight: 700;}
  .flags img {	padding-right: 15px;}
  .flag-text {display: flex;}
  .flag-text h4 {font-family: Roboto , sans-serif; font-size: 13px; font-weight: bold; padding-right: 33px;}
+
+ .partner-inst{ text-align: center;}
+ .partner-inst h4 {font-size: 52px; font-family: 'Mulish', sans-serif; font-weight: 600; margin-bottom: -10px;}
+ .partner-inst p {font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: 400; color: #888;}
+.all-country {display: flex; justify-content: center;}
+.all-country p {font-size: 16px;}
+.all-country p:after {content: "/"; padding-left: 11px; position: relative; top: -1px; color: #aaa; padding: 0 5px;}
+.all-country .active {color: red;}
+.other-logo-image {display: flex; justify-content: center;}

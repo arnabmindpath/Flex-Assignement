@@ -212,6 +212,30 @@
                 <p>Tokyo is the capital of Japan.</p>
             </div> 
         </div>
+
+        <script>
+            function openCity(evt, cityName) {
+          // Declare all variables
+          var i, tabcontent, tablinks;
+        
+          // Get all elements with class="tabcontent" and hide them
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+        
+          // Get all elements with class="tablinks" and remove the class "active"
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+        
+          // Show the current tab, and add an "active" class to the button that opened the tab
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }     
+        </script>
+
         <div class="container hr-dash"></div>
         <div class=" container imigration-consultant">
             <h1>Immigration Consult</h1>
@@ -251,31 +275,31 @@
                 </div>
             </div>
         </div>
+        <div class="container partner-inst">
+            <h4>Partner Institutes & Universities</h4>
+            <p>Fringilla risus luctus mauris auctor purus euismod pretium purus at pretium ligula rutrum <br>viverra tortor sapien sodales quaerat sodales sapien blandit dolores and aliquam</p>
+                <div class="all-country">
+                    <p class="active">All Countries</p>
+                    <p>Canada</p>
+                    <p>Australia</p>
+                    <p>USA</p>
+                    <p>United Kingdom</p>
+                    <p>New Zealand</p>
+                    <p>China</p>
+                    <p>South Korea</p>
+                </div>
+            <div class="other-logo-image">
+                <img src="image/brand-1.png" alt="brand">
+                <img src="image/brand-2.png" alt="brand">
+                <img src="image/brand-3.png" alt="brand">
+                <img src="image/brand-4.png" alt="brand">
+                <img src="image/brand-5.png" alt="brand">
+            </div>      
+        </div>
         
 
 
-<script>
-    function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}     
-</script>
 
 
     </body>
